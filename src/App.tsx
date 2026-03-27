@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Laice from "./pages/Laice";
 import Material from "./pages/Material";
+import Ankara from "./pages/Ankara";
 
 const App = () => {
  return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/laice" element={<Laice />} />
         <Route path="/material" element={<Material />} />
+        <Route path="/ankara" element={<Ankara />} />
       </Routes>
     </BrowserRouter>
   );
