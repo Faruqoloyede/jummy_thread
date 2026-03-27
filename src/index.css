@@ -43,4 +43,8 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+
+  .container {
+    @apply mx-auto max-w-313 px-16 max-xl:px-10 max-lg:px-6 max-sm:px-4;
+  }
 }
