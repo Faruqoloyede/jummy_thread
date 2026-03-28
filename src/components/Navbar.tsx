@@ -15,7 +15,7 @@ const Navbar = () => {
         {/* Logo */}
         <NavLink to="/" className='block'>
           <span className='font-bold text-3xl lg:text-4xl'>Jummy</span>
-          <span className='block text-sm logo_threads'>Threads</span>
+          <span className='block text-sm font-serif logo_threads'>Threads</span>
         </NavLink>
 
         {/* Desktop Links */}
