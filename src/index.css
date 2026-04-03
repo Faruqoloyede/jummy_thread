@@ -34,7 +34,7 @@ body {
   }
 
   p {
-    @apply lg:text-lg font-roboto text-center tracking-wide
+    @apply lg:text-lg font-roboto text-center tracking-wide 
   }
 
   .item_container {
