@@ -49,15 +49,15 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <ul className='flex flex-col md:hidden bg-white w-full text-center py-4 shadow-lg'>
+        <ul className='flex flex-col h-screen p-6 items-start md:hidden bg-[#59391a] w-full text-center py-4 shadow-lg'>
           {navitems.map((item, index) => (
-            <li key={index} className='mb-4'>
+            <li key={index} className='mb-7 text-white font-roboto text-sm'>
               <NavLink
                 to={item.link}
                 onClick={() => setIsOpen(false)} // close menu on click
                 className={({ isActive }) =>
                   `text-[18px] uppercase ${
-                    isActive ? 'text-red-500' : ''
+                    isActive ? 'text-whites' : ''
                   }`
                 }
               >
