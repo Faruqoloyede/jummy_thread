@@ -55,3 +55,36 @@ export const ankara = [
 
     },
 ]
+
+export const laceStyles = [
+  {
+    id: 'Mermaid_Lace_Gown',
+    name: "Mermaid Lace Gown",
+    price: 20000,
+    image: "/mermaid_lace.jfif"
+  },
+  {
+    id: 'Off_Shoulder_Lace',
+    name: "Off-Shoulder Lace",
+    price: 30000,
+    image: "/off_shoulder.jpg"
+  },
+  {
+    id: 'Corset-Lace_Gown',
+    name: "Corset Lace Gown",
+    price: 5000,
+    image: "/corset_lace.jfif"
+  },
+  {
+    id: 'Peplum_Lace_Style',
+    name: "Peplum Lace Style",
+    price: 30000,
+    image: "/peplum.jfif"
+  },
+  {
+    id: 'Cape_Lace_Gown',
+    name: "Cape Lace Gown",
+    price: 15000,
+    image: "/cape_lace.jfif"
+  }
+];

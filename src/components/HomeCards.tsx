@@ -1,9 +1,8 @@
 import { Heart } from 'lucide-react'
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-type ankaraProps={
+type productsProps={
   id: string,
   name: string,
   price: number,
@@ -11,12 +10,12 @@ type ankaraProps={
 }
 
 type HomecardProps = {
-  ankara: ankaraProps[],
+  products: productsProps[],
 }
-const HomeCards = ({ankara}: HomecardProps) => {
+const HomeCards = ({products}: HomecardProps) => {
   return (
     <div className='gap-x-4 gap-y-8 item_container py-4'>
-      {ankara.slice(0,3).map((item)=>(
+      {products.slice(0,3).map((item)=>(
         <Link to={`/ankaradetails/${item.id}`} key={item.id} className='flex flex-col'>
           <img src={item.image} alt={item.name} className='product-image home-photos' />
           <div className='px-4 mt-3'>

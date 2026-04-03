@@ -1,3 +1,4 @@
+import LaceSection from "../components/LaceSection"
 import AnkaraSection from "../components/AnkaraSection"
 import Hero from "../components/Hero"
 import Marquee from "../components/Marquee"
@@ -11,6 +12,7 @@ const Home = () => {
       <Marquee text="Office Address" />
       <Hero />
       <AnkaraSection />
+      <LaceSection />
     </div>
   )
 }
