@@ -1,12 +1,10 @@
-import Marquee from "../components/Marquee"
-import Navbar from "../components/Navbar"
-
+import HomeCards from '../components/HomeCards'
+import { ankara } from '../constant'
 
 const Ankara = () => {
   return (
     <div className="relative">
-      {/* <Navbar /> */}
-      <Marquee text="office address" />
+      <HomeCards products={ankara} />
     </div>
   )
 }

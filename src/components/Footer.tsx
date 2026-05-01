@@ -27,11 +27,11 @@ const Footer = () => {
                     </li>
                     <li className="flex gap-x-2">
                         <Mail />
-                        <a href="mailto:jummythreads@gmail.com" className="text-base font-roboto">jummythreads@gmail.com</a>
+                        <a href="mailto:hassanaishat593@gmail.com" className="text-base font-roboto">hassanaishat593@gmail.com</a>
                     </li>
                     <li className="flex gap-x-2">
                         <Phone />
-                        <a href="tel:+2348098999905" className="text-base font-roboto">+234 8098999905</a>
+                        <a href="tel:+2348159168859" className="text-base font-roboto">+234 8159168859</a>
                     </li>
                 </ul>
             </div>

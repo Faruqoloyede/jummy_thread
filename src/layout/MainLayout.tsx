@@ -7,7 +7,7 @@ const MainLayout = () => {
   return (
     <>
       <Navbar />
-      <Marquee text='office address' />
+      <Marquee text='Shop no.1, Adeshina house, opposite junction site imam, Offa, Kwara state' />
       <Outlet />
       <Footer />
     </>
