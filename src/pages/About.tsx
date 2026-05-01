@@ -3,7 +3,7 @@
 const About = () => {
   return (
     <div>
-      <img src="/ankara4.jfif" alt="" />
+      {/* <img src="/ankara4.jfif" alt="" /> */}
     </div>
   )
 }

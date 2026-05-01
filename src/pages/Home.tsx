@@ -9,7 +9,7 @@ import Footer from "../components/Footer"
 const Home = () => {
   return (
     <div className="relative">
-      <Navbar />
+      {/* <Navbar /> */}
       <Marquee text="Office Address" />
       <Hero />
       <AnkaraSection />
