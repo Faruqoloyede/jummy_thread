@@ -23,10 +23,8 @@ const HomeCards = ({ products }: HomecardProps) => {
 
 I'm interested in this outfit:
 
-🧵 Name: ${item.name}
-💰 Price: ₦${item.price.toLocaleString()}
-🖼 Image: ${item.image}
-
+Name: ${item.name}
+Price: ₦${item.price.toLocaleString()}
 Can you make this for me?
 `
 
